@@ -55,3 +55,45 @@ h2 {
   font-size: 40px;
   padding: 15px;
 }
+
+h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #f6f5f2;
+  background-image: var(--section3);
+}
+
+#projects {
+  background-image: var(--section3);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  max-width: 350px;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2.5px solid #86868b;
+}
+
+a {
+  text-decoration: wavy;
+  color: #f6f5f2;
+}
+
+.tag {
+  text-align: center;
+  padding-top: 20px;
+}
