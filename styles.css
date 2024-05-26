@@ -1,0 +1,13 @@
+/* reset viewport*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --section1: linear-gradient(to bottom, #131313, #2b2b2b);
+  --section2: linear-gradient(to bottom, #2b2b2b, #131313);
+  --section3: linear-gradient(to bottom, #2b2b2b, #131313, #2b2b2b);
+}
