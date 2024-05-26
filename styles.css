@@ -97,3 +97,46 @@ a {
   text-align: center;
   padding-top: 20px;
 }
+
+#contact {
+  margin: 15px 20px 10px 10px;
+}
+
+fieldset {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label,
+fieldset {
+  color: #f6f5f2;
+}
+
+#name-label {
+  padding-right: 15px;
+}
+
+#email-label,
+#number-label,
+label[for='type-project'] {
+  padding: 25px;
+}
+
+/* style for the label to be centred above the textarea */
+label[for='summary'] {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#summary {
+  width: 100%; /* Occupies the entire available width */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.inline {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
